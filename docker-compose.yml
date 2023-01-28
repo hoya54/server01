@@ -1,17 +1,7 @@
 version: '3'
 services:
-  nginx:
-    image: nginx
-    container_name: nginx
-    ports:
-      - "8008:8008"
   server01:
     image: server01
     container_name: server01
     ports:
       - "8001:8001"
-  server02:
-    image: server02
-    container_name: server02
-    ports:
-      - "8002:8002"
